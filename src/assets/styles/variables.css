@@ -1,0 +1,20 @@
+:root {
+    --color-primary-900: #0E121B;
+    --color-primary-700: #151B29;
+    --color-primary-600: #1B2436;
+    --color-primary-500: #212B41;
+    --color-primary-400: #303F5F;
+    --color-primary-300: #3E517A;
+    --color-primary-200: #92A4C8;
+    --color-primary-100: #D6DDEA;
+
+    --color-secondary-900: #00243D;
+    --color-secondary-700: #00538F;
+    --color-secondary-600: #008FF5;
+    --color-secondary-500: #4AB4FF;
+    --color-secondary-400: #85CCFF;
+
+    --gradient-gray: #868F98;
+
+    --color-foreground: #ffffff;
+}

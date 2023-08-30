@@ -1,0 +1,9 @@
+@import "variables.css";
+@import "fonts.css";
+
+body {
+  background: var(--color-primary-900);
+  font-family: "Gotham Pro", sans-serif;
+  color: var(--color-foreground);
+  margin: 0;
+}
