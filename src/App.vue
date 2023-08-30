@@ -3,6 +3,8 @@ import { ref } from "vue";
 import FormCheckboxList from "@/components/FormCheckboxList.vue";
 import type { FormCheckboxListItem } from "@/types/form-checkbox-list-item";
 import AppContainer from "@/components/AppContainer.vue";
+import AppButton from "@/components/AppButton.vue";
+import IconDots from "@/components/icons/IconDots.vue";
 
 const checkboxes: FormCheckboxListItem[] = [
   {
@@ -46,6 +48,8 @@ const checkboxesValue = ref([4]);
         v-model="checkboxesValue"
         style="margin-bottom: 50px"
       />
+
+      <AppButton><IconDots /></AppButton>
     </AppContainer>
   </div>
 </template>
