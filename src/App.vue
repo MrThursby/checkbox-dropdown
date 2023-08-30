@@ -46,7 +46,6 @@ const checkboxesValue = ref([4]);
       <FormCheckboxList
         :list="checkboxes"
         v-model="checkboxesValue"
-        style="margin-bottom: 50px"
       />
 
       <AppButton><IconDots /></AppButton>
