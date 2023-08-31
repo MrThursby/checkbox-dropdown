@@ -76,6 +76,7 @@ export default defineComponent({
 }
 
 .form-checkbox__indicator-wrapper {
+  cursor: pointer;
   box-sizing: border-box;
   background: var(--color-primary-700);
   border: 1px solid var(--color-primary-400);
@@ -121,6 +122,7 @@ export default defineComponent({
   color: var(--color-primary-300);
   border-color: var(--color-primary-300);
   background: var(--color-primary-500);
+  cursor: default;
 }
 
 .form-checkbox__label {

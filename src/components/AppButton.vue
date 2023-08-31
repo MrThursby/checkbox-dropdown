@@ -19,6 +19,7 @@ export default defineComponent({
 
 <style>
 .app-button {
+  cursor: pointer;
   border: 1px solid var(--color-primary-300);
   color: var(--color-primary-200);
   background: var(--color-primary-700);
