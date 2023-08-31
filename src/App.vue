@@ -5,7 +5,6 @@ import type { FormCheckboxListItem } from "@/types/form-checkbox-list-item";
 import AppContainer from "@/components/AppContainer.vue";
 import AppDropdown from "@/components/AppDropdown.vue";
 import IconImage from "@/components/icons/IconImage.vue";
-import { Direction } from "@/types/direction";
 import AppDropdownItem from "@/components/AppDropdownItem.vue";
 
 const checkboxesValue = ref([4]);
@@ -52,7 +51,7 @@ function setDropdownValue(value: number, close: () => void) {
           />
         </AppDropdown>
 
-        <AppDropdown v-direction="Direction.RIGHT_DOWN" v-slot="{ close }">
+        <AppDropdown v-slot="{ close }">
           <AppDropdownItem
             v-for="item of dropdownItems"
             :key="item.id"
@@ -68,7 +67,7 @@ function setDropdownValue(value: number, close: () => void) {
       </div>
 
       <div class="app__dropdowns-list">
-        <AppDropdown v-direction="Direction.LEFT_UP" v-slot="{ close }">
+        <AppDropdown v-slot="{ close }">
           <AppDropdownItem
             v-for="item of dropdownItems"
             :key="item.id"
@@ -78,7 +77,7 @@ function setDropdownValue(value: number, close: () => void) {
           />
         </AppDropdown>
 
-        <AppDropdown v-direction="Direction.RIGHT_UP" v-slot="{ close }">
+        <AppDropdown v-slot="{ close }">
           <AppDropdownItem
             v-for="item of dropdownItems"
             :key="item.id"
